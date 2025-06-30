@@ -23,7 +23,7 @@ The bot consists of two main components:
 
 - `slackbot.py`: Main bot logic and Slack event handlers
 - `run.py`: Entry point for running the bot
-- `Magic Summarizer Bot Flow.json`: Langflow workflow configuration
+- `langflow_jsons/Magic Summarizer Bot Flow.json`: Langflow workflow configuration
 - `bot_envs/`: Environment configuration files
 
 ## Prerequisites
@@ -97,7 +97,7 @@ The bot consists of two main components:
 
 2. **Import the workflow**:
    - Open Langflow at `http://localhost:7860`
-   - Import the `Magic Summarizer Bot Flow.json` file
+   - Import the `langflow_jsons/Magic Summarizer Bot Flow.json` file
    - Note the Flow ID for your environment configuration
 
 3. **Configure the workflow**:
@@ -159,7 +159,7 @@ slackbolt-langflow-bot/
 ├── bot_envs/                # Environment configurations
 │   ├── .env_sample         # Template environment file
 │   └── .env_*              # Bot-specific environment files
-├── Magic Summarizer Bot Flow.json  # Langflow workflow
+├── langflow_jsons/Magic Summarizer Bot Flow.json  # Langflow workflow
 └── README.md               # This file
 ```
 
@@ -175,7 +175,7 @@ slackbolt-langflow-bot/
 1. Open the Langflow workflow in the Langflow UI
 2. Modify the prompt templates and processing logic
 3. Export the updated workflow
-4. Replace the `Magic Summarizer Bot Flow.json` file
+4. Replace the `langflow_jsons/Magic Summarizer Bot Flow.json` file
 
 ## Troubleshooting
 
